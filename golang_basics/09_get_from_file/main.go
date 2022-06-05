@@ -2,7 +2,6 @@ package main
 
 func main() {
 	cards := newDeck()
+	cards.shuffle()
 	cards.print()
 }
-
-// To run:  go run main.go deck.go
